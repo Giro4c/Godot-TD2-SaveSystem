@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://bn2ytmd81v1it"]
+[gd_scene load_steps=3 format=3 uid="uid://dmjq4hmcj3ksx"]
 
-[ext_resource type="PackedScene" uid="uid://b62i8bkdvfq18" path="res://scenery.tscn" id="1_2exe1"]
-[ext_resource type="PackedScene" uid="uid://dgl7fvxdf04we" path="res://Player.tscn" id="1_uam7p"]
+[ext_resource type="PackedScene" path="res://scenery.tscn" id="1_2exe1"]
+[ext_resource type="PackedScene" uid="uid://xfxy0is3la4d" path="res://Player.tscn" id="1_uam7p"]
 
 [node name="Main_game" type="Node"]
 

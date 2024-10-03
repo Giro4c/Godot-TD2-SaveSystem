@@ -1,2 +1,4 @@
 res://Player.cs
 res://Player.tscn
+res://main_game.tscn
+res://SaveManager.cs
