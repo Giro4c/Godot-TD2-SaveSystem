@@ -1,6 +1,5 @@
-[gd_scene load_steps=25 format=3 uid="uid://xfxy0is3la4d"]
+[gd_scene load_steps=24 format=3 uid="uid://xfxy0is3la4d"]
 
-[ext_resource type="Script" path="res://Player.cs" id="1_xwgrh"]
 [ext_resource type="Texture2D" uid="uid://s3vaqx56spqu" path="res://brackeys_platformer_assets/sprites/knight.png" id="2_nu3of"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nx6fa"]
@@ -160,7 +159,6 @@ animations = [{
 size = Vector2(13, 19)
 
 [node name="Player" type="CharacterBody2D"]
-script = ExtResource("1_xwgrh")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_2pk60")
