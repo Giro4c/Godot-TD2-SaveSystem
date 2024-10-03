@@ -1,2 +1,2 @@
-﻿50366
+﻿50541
 C:/Users/Camille (HorsCo)/AppData/Roaming/Godot-Manager/versions/Godot_v4.3-stable_mono_win64/Godot_v4.3-stable_mono_win64.exe
