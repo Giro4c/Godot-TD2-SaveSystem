@@ -1,12 +1,9 @@
 is_global = true
-<<<<<<< Updated upstream
-=======
 build_property.GodotDisabledSourceGenerators = 
 build_property.GodotProjectDir = C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\
 build_property.GodotProjectDirBase64 = 
 build_property.GodotSourceGenerators = 
 build_property.IsGodotToolsProject = 
->>>>>>> Stashed changes
 build_property.TargetFramework = net6.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
