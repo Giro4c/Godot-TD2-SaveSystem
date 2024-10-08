@@ -39,5 +39,3 @@ func get_input():
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.y = move_toward(velocity.y, 0, SPEED)
 	pass
-func get_orientation():
-	return orientation

@@ -2,8 +2,8 @@
 
 [ext_resource type="PackedScene" uid="uid://b62i8bkdvfq18" path="res://scenery.tscn" id="1_2exe1"]
 [ext_resource type="PackedScene" uid="uid://xfxy0is3la4d" path="res://Player.tscn" id="1_uam7p"]
-[ext_resource type="Script" path="res://player.gd" id="3_5oyme"]
 [ext_resource type="Script" path="res://gui.gd" id="4_itqfi"]
+[ext_resource type="Script" path="res://SaveManager.cs" id="5_jyg7i"]
 
 [node name="Node" type="Node" groups=["Persist"]]
 
@@ -15,8 +15,7 @@ scale = Vector2(5, 5)
 
 [node name="Player" parent="Main_Game" instance=ExtResource("1_uam7p")]
 position = Vector2(761, 684)
-scale = Vector2(5, 5)
-script = ExtResource("3_5oyme")
+scale = Vector2(4, 4)
 
 [node name="Camera2D" type="Camera2D" parent="Main_Game"]
 position = Vector2(801, 486)
@@ -55,3 +54,6 @@ text = "Load ConfigFile"
 layout_mode = 2
 
 [node name="SaveManager" type="Node" parent="."]
+script = ExtResource("5_jyg7i")
+gameNodePath = NodePath("../Main_Game")
+playerNodePath = NodePath("../Main_Game/Player")
