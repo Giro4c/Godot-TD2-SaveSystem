@@ -16,3 +16,21 @@ C:\Users\Camille (HorsCo)\Desktop\Git Repositories\Godot-TD2-SaveSystem\Project\
 C:\Users\Camille (HorsCo)\Desktop\Git Repositories\Godot-TD2-SaveSystem\Project\.godot\mono\temp\obj\Debug\Godot-TD2.pdb
 C:\Users\Camille (HorsCo)\Desktop\Git Repositories\Godot-TD2-SaveSystem\Project\.godot\mono\temp\obj\Debug\Godot-TD2.genruntimeconfig.cache
 C:\Users\Camille (HorsCo)\Desktop\Git Repositories\Godot-TD2-SaveSystem\Project\.godot\mono\temp\obj\Debug\ref\Godot-TD2.dll
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\bin\Debug\Godot-TD2.deps.json
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\bin\Debug\Godot-TD2.runtimeconfig.json
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\bin\Debug\Godot-TD2.dll
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\bin\Debug\Godot-TD2.pdb
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\obj\Debug\Godot-TD2.csproj.AssemblyReference.cache
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\obj\Debug\Godot-TD2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\obj\Debug\Godot-TD2.AssemblyInfoInputs.cache
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\obj\Debug\Godot-TD2.AssemblyInfo.cs
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\obj\Debug\Godot-TD2.csproj.CoreCompileInputs.cache
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\obj\Debug\Godot-TD2.sourcelink.json
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\obj\Debug\Godot-TD2.csproj.Up2Date
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\obj\Debug\Godot-TD2.dll
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\obj\Debug\refint\Godot-TD2.dll
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\obj\Debug\Godot-TD2.pdb
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\obj\Debug\Godot-TD2.genruntimeconfig.cache
+C:\Users\fchal\Documents\GitHub\Godot-TD2-SaveSystem\Project\.godot\mono\temp\obj\Debug\ref\Godot-TD2.dll

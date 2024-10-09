@@ -1,13 +1,8 @@
 res://main_game.tscn
-res://player.gd
-res://SaveManager.cs
 res://Player.tscn
-res://main_game.tscn
-res://SaveManager.cs
-res://level_button.tscn
-res://main_menu.tscn
 res://CustomMainLoop.cs
-res://GameButton.cs
+res://MenuButton.cs
 res://LevelButton.cs
 res://LevelManager.cs
-res://MenuButton.cs
+res://GameButton.cs
+res://SaveManager.cs

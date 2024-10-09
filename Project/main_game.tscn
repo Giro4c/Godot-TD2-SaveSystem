@@ -1,10 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://bn2ytmd81v1it"]
+[gd_scene load_steps=6 format=3 uid="uid://bn2ytmd81v1it"]
 
-[ext_resource type="PackedScene" path="res://scenery.tscn" id="1_2exe1"]
-[ext_resource type="PackedScene" uid="uid://xfxy0is3la4d" path="res://Player.tscn" id="1_uam7p"]
-[ext_resource type="Script" path="res://MenuButton.cs" id="3_jfpwj"]
 [ext_resource type="PackedScene" uid="uid://b62i8bkdvfq18" path="res://scenery.tscn" id="1_2exe1"]
 [ext_resource type="PackedScene" uid="uid://xfxy0is3la4d" path="res://Player.tscn" id="1_uam7p"]
+[ext_resource type="Script" path="res://MenuButton.cs" id="3_jfpwj"]
 [ext_resource type="Script" path="res://gui.gd" id="4_itqfi"]
 [ext_resource type="Script" path="res://SaveManager.cs" id="5_jyg7i"]
 
@@ -41,6 +39,21 @@ offset_bottom = 79.0
 scale = Vector2(1.5, 1.5)
 script = ExtResource("4_itqfi")
 
+[node name="SaveLoad" type="GridContainer" parent="UI/VBoxContainer"]
+layout_mode = 2
+columns = 2
+
+[node name="SaveButton" type="Button" parent="UI/VBoxContainer/SaveLoad"]
+layout_mode = 2
+text = "Save ConfigFile"
+
+[node name="LoadButton" type="Button" parent="UI/VBoxContainer/SaveLoad"]
+layout_mode = 2
+text = "Load ConfigFile"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="UI/VBoxContainer"]
+layout_mode = 2
+
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(222, 126)
 zoom = Vector2(4, 3.3)
@@ -60,20 +73,6 @@ layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 text = "Menu"
-[node name="SaveLoad" type="GridContainer" parent="UI/VBoxContainer"]
-layout_mode = 2
-columns = 2
-
-[node name="SaveButton" type="Button" parent="UI/VBoxContainer/SaveLoad"]
-layout_mode = 2
-text = "Save ConfigFile"
-
-[node name="LoadButton" type="Button" parent="UI/VBoxContainer/SaveLoad"]
-layout_mode = 2
-text = "Load ConfigFile"
-
-[node name="RichTextLabel" type="RichTextLabel" parent="UI/VBoxContainer"]
-layout_mode = 2
 
 [node name="SaveManager" type="Node" parent="."]
 script = ExtResource("5_jyg7i")
