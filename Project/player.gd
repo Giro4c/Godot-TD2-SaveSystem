@@ -1,9 +1,9 @@
 extends CharacterBody2D
 
-const SPEED = 130.0
+const SPEED = 400.0
 
 @onready var animated_sprite = $AnimatedSprite2D
-
+var orientation = false
 # Update
 func _process(delta: float) -> void:
 	pass
@@ -17,7 +17,6 @@ func _physics_process(delta: float) -> void:
 func get_input():
 	# Get the direction
 	var direction = Input.get_vector("left", "right", "up", "down")
-	
 	# Visual
 		# Animation
 	if direction : 
@@ -28,9 +27,10 @@ func get_input():
 		# Direction facing
 	if direction.x :
 		if direction.x > 0 :
-			animated_sprite.flip_h = false
+			orientation = false
 		else :
-			animated_sprite.flip_h = true
+			orientation = true
+	animated_sprite.flip_h = orientation
 	
 	# Apply velocity for movement
 	if direction != Vector2.ZERO :

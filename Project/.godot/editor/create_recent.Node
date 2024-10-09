@@ -2,3 +2,9 @@ Label
 Button
 Camera2D
 Node
+Button
+GridContainer
+RichTextLabel
+VBoxContainer
+Control
+GraphFrame
